@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Johnny Li</title>
+<meta name="description" content="Johnny Li — software engineer.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13' fill='%23171717'>✳</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--fg:#171717;--mu:#737373;--ln:#e5e5e5;--fs:"Inter",system-ui,sans-serif;--fm:"Menlo",monospace;--w:min(720px,88vw)}
+@media(prefers-color-scheme:dark){:root{--bg:#0a0a0a;--fg:#fafafa;--mu:#a3a3a3;--ln:#262626}}
+*{margin:0;padding:0;box-sizing:border-box} a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--fg);outline-offset:4px}
+body{background:var(--bg);color:var(--fg);font:400 15px/1.6 var(--fs);padding:clamp(24px,5vh,48px) 0;-webkit-font-smoothing:antialiased}
+.wrap{width:var(--w);margin:0 auto}
+h1{font:600 clamp(2.5rem,7vw,4rem)/1 var(--fs);letter-spacing:-.03em}
+section{margin-top:clamp(24px,5vh,48px)}
+h2{font:500 11px/1 var(--fm);letter-spacing:.1em;text-transform:uppercase;color:var(--mu);margin:0 0 16px;padding:0 0 10px;border-bottom:1px solid var(--ln)}
+.proj{display:grid;grid-template-columns:auto 1fr;gap:6px 20px;padding:14px 0;border-top:1px solid var(--ln);align-items:baseline}
+.proj:last-child{border-bottom:1px solid var(--ln)}
+.pnum{font:12px/1 var(--fm);color:var(--mu)}
+.proj h3{font:500 1.25rem/1.2 var(--fs);letter-spacing:-.02em;color:var(--fg)}
+.proj p{grid-column:2;font:14px/1.5 var(--fs);color:var(--mu);margin-top:2px}
+.mail{display:inline-block;font:500 clamp(1.25rem,3.5vw,1.75rem)/1.2 var(--fs);letter-spacing:-.02em;background:linear-gradient(var(--fg),var(--fg)) 100% 100% / 0 2px no-repeat;transition:.3s}
+.mail:hover{background-size:100% 2px;color:var(--mu)}
+.links{margin-top:20px;display:flex;gap:20px;font:500 14px/1 var(--fs);flex-wrap:wrap}
+.links a{color:var(--mu);border-bottom:1px solid transparent;transition:.2s}
+.links a:hover{color:var(--fg);border-color:var(--fg)}
+.links a::after{content:" ↗";opacity:0;transition:.2s}
+.links a:hover::after{opacity:1}
+footer{margin-top:clamp(24px,5vh,48px);padding-top:16px;border-top:1px solid var(--ln);display:flex;justify-content:space-between;flex-wrap:wrap;font:12px/1.5 var(--fm);letter-spacing:.05em;color:var(--mu)}
+footer a{color:var(--mu);transition:.2s} footer a:hover{color:var(--fg)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Johnny Li</h1>
+  <section>
+    <h2>Work</h2>
+    <article class="proj"><span class="pnum">01</span><div><h3>Project One</h3><p>One-line description of what it does and why it matters.</p></div></article>
+    <article class="proj"><span class="pnum">02</span><div><h3>Project Two</h3><p>One-line description of what it does and why it matters.</p></div></article>
+    <article class="proj"><span class="pnum">03</span><div><h3>Project Three</h3><p>One-line description of what it does and why it matters.</p></div></article>
+  </section>
+  <section>
+    <h2>Contact</h2>
+    <a class="mail" href="mailto:lijohnny008@gmail.com">lijohnny008@gmail.com</a>
+    <div class="links">
+      <a href="https://github.com/johnnyli008" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/johnnyli008" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+  <footer>
+    <span>© 2026 JOHNNY LI</span>
+    <a href="tel:+17572278163">757-227-8163</a>
+  </footer>
+</div>
+</body>
+</html>
